@@ -9,13 +9,11 @@ Script desenvolvido para uso educacional e testes controlados em ambientes autor
 ## Requisitos
 - Python 3.8 ou superior
 - Dependências listadas em `requirements.txt`
-- (para evitar erros ao tentar baixar requirements.txt, use o venv, digite isso no seu terminal:
-- python3 -m venv venv
-- source venv/bin/activate
-se aparecer (venv), então esta tudo certo.  
 
 ## Instalação
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 git clone https://github.com/zFlashzk7/Death-Nuker
 cd Death-Nuker
 pip install -r requirements.txt
